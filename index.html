@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AutoEvaluacion HTML-1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Evaluación HTML 1</h1>
+      <h2>Poniendo en práctica mis primeras habilidades</h2>
+
+      <div>
+        <!--Menu de inicio-->
+        <h3>Menu</h3>
+
+        <nav>
+          <a href="cursos.html" target="_blank" rel="noopener noreferrer">
+            Mis cursos
+          </a>
+          <a
+            href="https://github.com/Ariel-Sq"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Mi GitHubs</a
+          >
+          <a href="contacto.html" target="_blank" rel="noopener noreferrer">
+            Contácto</a
+          ><br />
+          <img
+            src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/html-lernen-t.jpg"
+            alt="Imagen de HTML"
+            width="400px"
+          />
+        </nav>
+      </div>
+    </header>
+    <hr />
+
+    <section>
+      <!--Seccion de cursos destacados-->
+      <h3>Cursos destacados</h3>
+      <div>
+        <article>
+          <h4>HTML:</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugit
+            enim expedita quasi velit mollitia consectetur adipisci? Numquam
+            soluta molestias adipisci voluptate eveniet aliquam, non voluptatum
+            dolore, optio impedit similique.
+          </p>
+          <br />
+          <a
+            href="https://www.youtube.com/watch?v=MJkdaVFHrto"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://i.ytimg.com/vi/MJkdaVFHrto/maxresdefault.jpg"
+              alt="Imagen de curso html"
+              width="400"
+          /></a>
+        </article>
+
+        <article>
+          <h4>CSS:</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum modi
+            ea pariatur laboriosam, magni in, error temporibus tempore cum,
+            tenetur fugit eaque nam minima odio voluptas quo minus dignissimos
+            cumque.
+          </p>
+          <br />
+          <a
+            href="https://www.youtube.com/watch?v=wZniZEbPAzk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://i.ytimg.com/vi/wZniZEbPAzk/maxresdefault.jpg"
+              alt="Imagen curso CSS"
+              width="400"
+            />
+          </a>
+        </article>
+
+        <article>
+          <h4>JavaScript:</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Necessitatibus cupiditate nisi quos, unde saepe doloribus. A hic
+            quam numquam perspiciatis architecto deserunt. Hic omnis modi est
+            numquam unde voluptas ipsum?
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=XUqhD9Ro6PA"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="https://i.ytimg.com/vi/XUqhD9Ro6PA/maxresdefault.jpg"
+              alt="Imagen curso JavaScript"
+              width="400"
+          /></a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <!--seccion de formulario-->
+      <h3><em>Cursos echos hasta ahora</em></h3>
+
+      <form action="/enviar-respuesta">
+        <!--casillas radio-->
+        <label for="frontend"
+          ><input
+            id="frontend"
+            type="radio"
+            value="p-frontend"
+            name="frontend-backend"
+            checked
+          />Programador frontend</label
+        ><br />
+        <label for="backend"
+          ><input
+            id="backend"
+            type="radio"
+            value="p-backend"
+            name="frontend-backend"
+          />Programador backend</label
+        ><br />
+
+        <!--casillas checkbox-->
+        <label for="html"
+          ><input
+            id="html"
+            type="checkbox"
+            value="c-html"
+            name="cursos"
+            checked
+          />
+          HTML</label
+        >
+        <label for="css"
+          ><input
+            id="css"
+            type="checkbox"
+            value="c-css"
+            name="cursos"
+          />CSS</label
+        >
+        <label for="js"
+          ><input
+            id="js"
+            type="checkbox"
+            value="c-js"
+            name="cursos"
+          />JavaScript</label
+        ><br />
+
+        <!--comentarios-->
+        <label for="comentarios"><h5>Comentarios</h5></label><br />
+        <textarea
+          name="comentarios"
+          id="comentarios"
+          placeholder="Ingrese aquí"
+          cols="80"
+          rows="15"
+        ></textarea
+        ><br />
+        <button submit="enviar">Enviar</button>
+      </form>
+    </section>
+    <hr />
+
+    <footer>
+      <p>Derechos reservados ArielSq</p>
+    </footer>
+  </body>
+</html>
