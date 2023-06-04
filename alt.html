@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <!--seccion de formulario-->
+        <h3><em>Cursos echos hasta ahora</em></h3>
+
+        <form action="/enviar-respuesta">
+          <!--casillas radio-->
+          <label for="frontend"
+            ><input
+              id="frontend"
+              type="radio"
+              value="p-frontend"
+              name="frontend-backend"
+              checked
+            />Programador frontend</label
+          ><br />
+          <label for="backend"
+            ><input
+              id="backend"
+              type="radio"
+              value="p-backend"
+              name="frontend-backend"
+            />Programador backend</label
+          ><br />
+
+          <!--casillas checkbox-->
+          <label for="html"
+            ><input
+              id="html"
+              type="checkbox"
+              value="c-html"
+              name="cursos"
+              checked
+            />
+            HTML</label
+          >
+          <label for="css"
+            ><input
+              id="css"
+              type="checkbox"
+              value="c-css"
+              name="cursos"
+            />CSS</label
+          >
+          <label for="js"
+            ><input
+              id="js"
+              type="checkbox"
+              value="c-js"
+              name="cursos"
+            />JavaScript</label
+          ><br />
+
+          <!--comentarios-->
+          <label for="comentarios"><h5>Comentarios</h5></label><br />
+          <textarea
+            name="comentarios"
+            id="comentarios"
+            placeholder="Ingrese aquí"
+            cols="80"
+            rows="15"
+          ></textarea
+          ><br />
+          <button submit="enviar">Enviar</button>
+        </form>
+      </section>
+    </div>
+    <hr /> 
+</body>
+</html>

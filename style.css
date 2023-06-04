@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    margin-top: -160px;
+}
+
+header {
+    display: flex;
+    background-color: #14A4C1 ;
+    color: #D1E1E3 ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vw;
+    padding: 15px;
+}
+
+header h1 {
+    padding: 100px 50px;
+    font-size: 64px;
+    margin: 50px 50px;
+}
+
+.menu {
+    margin-right: 15px;
+    padding: 50px;
+    margin-top: -136px;
+    margin-bottom: 40px
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: #D1E1E3;
+    color: #14A4C1;
+    margin-left: 10px;
+    padding: 12px;
+    border: 1px solid #14A4C1;
+    border-radius: 15px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s, ;
+}
+
+.menu a:hover {
+    background-color: dimgray;
+    color: aliceblue;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+}
+
+.presentacion h2 {
+    margin-right: 40px;
+}
+
+img {
+    border: 5px solid dimgray;
+    border-radius: 10%;
+    box-shadow: 8px 7px 5px rgba(0, 0, 0, 0.2);
+    width: 536px;
+}
+
+.contenedor {
+    background-color: #49BCCB;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    color: aliceblue;
+}
+
+footer p {
+    text-align: center;
+}
+
+#texto-footer {
+    font-family:'Times New Roman', Times, serif
+}
