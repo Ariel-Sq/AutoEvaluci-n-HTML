@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+  <link rel="stylesheet" href="estiloMisCursos.css" />
   <head>
     <title>Cursos</title>
   </head>
@@ -8,22 +9,22 @@
       <h1>Mis cursos</h1>
     </header>
 
-    <div>
-      <ul>
+    <div class="container">
+      <ul id="tarjeta">
         <li>HTML</li>
         <a
           href="https://www.youtube.com/watch?v=MJkdaVFHrto"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="./imagenes/hmhtml.jpg" alt="holamundo-html" width="300" />
+          <img src="imagenes/hmhtml.jpg" alt="holamundo-html" width="300" />
         </a>
         <a
           href="https://www.youtube.com/watch?v=XqFR2lqBYPs"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="./imagenes/fcc-html.png" alt="FreeCodeCamp" width="300" />
+          <img src="imagenes/fcc-html.png" alt="FreeCodeCamp" width="300" />
         </a>
 
         <li>CSS</li>
@@ -31,7 +32,7 @@
           href="https://www.youtube.com/watch?v=wZniZEbPAzk"
           target="_blank"
           rel="noopener noreferrer"
-          ><img src="./imagenes/hmcss.jpg" alt="HolaMundo-CSS" width="300"
+          ><img src="imagenes/hmcss.jpg" alt="HolaMundo-CSS" width="300"
         /></a>
 
         <li>JavaScript</li>
@@ -39,26 +40,20 @@
           href="https://www.youtube.com/watch?v=XUqhD9Ro6PA"
           target="_blank"
           rel="noopener noreferrer"
-          ><img src="./imagenes/hmjs.jpg" alt="HolaMundo-JS" width="300"
+          ><img src="imagenes/hmjs.jpg" alt="HolaMundo-JS" width="300"
+        /></a>
+
+        <a
+          href="https://platzi.com/cursos/programacion-basica/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="imagenes/img platzi" alt="HolaMundo-JS" width="300 "
         /></a>
       </ul>
     </div>
 
-    <section>
-      <table style="width: 500px">
-        <thead>
-          <tr>
-            <th>Curso</th>
-            <th>Completado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML HolaMundo</td>
-            <td>CSS HolaMundo</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+    <footer>
+      <p id="texto-footer">By ArielSq</p>
+    </footer>
   </body>
 </html>
