@@ -17,8 +17,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    height: 60vw;
     padding: 15px;
     margin-top: 72px;
 }
@@ -87,7 +85,6 @@ video {
 }
 
 footer {
-    width: 100vw;
     padding: 20px;
     display: flex;
     justify-content: center;

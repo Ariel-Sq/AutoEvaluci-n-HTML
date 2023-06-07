@@ -13,18 +13,16 @@ body {
 header {
     display: flex;
     justify-content: center;
-    padding: 50px;
-}
+  }
   
   header h1 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     background-color: #14A4C1;
-    margin: 24px;
-    padding: 1vw 100vw;
+    margin-top: 70px;
     font-size: 60px;
     text-align: center;
-    display: inline;
+    width: 100%;
 }
   
 .container {
@@ -54,10 +52,10 @@ header {
     justify-content: center;
     margin-bottom: 10px;
     font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
 }
 
 footer {
-    width: 100vw;
     padding: 20px;
     display: flex;
     justify-content: center;
